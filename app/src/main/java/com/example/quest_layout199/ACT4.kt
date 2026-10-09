@@ -89,7 +89,7 @@ fun ActivityPertama(modifier: Modifier) {
             )
         }
     }
-
+//aokwokao
 
 
 
