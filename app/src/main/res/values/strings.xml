@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">quest_layout199</string>
+    <string name="app_name">pertemuan4</string>
+    <string name="Nama">Pajil</string>
+    <string name="prodi">Teknologi Informasi</string>
+    <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
+    <string name="alamat">Tangerang,Banten</string>
+    <string name="copy">Copyright, 2026</string>
 </resources>
