@@ -50,3 +50,11 @@ fun ActivityPertama(modifier: Modifier) {
             colors = CardDefaults.cardColors(
                 contentColor = Color.DarkGray
             )
+        ) {
+
+            Row() { //rownya dalam card
+                val gambar = painterResource(R.drawable.logoumy)
+                Image(
+                    painter = gambar,
+                    contentDescription = null,
+                    modifier = Modifier.size(100.dp).padding(5.dp)
