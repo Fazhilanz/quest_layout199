@@ -1,5 +1,6 @@
 package com.example.quest_layout199
 
+import ActivityPertama
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -20,10 +21,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Quest_layout199Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
+                    ActivityPertama(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
